@@ -48,15 +48,21 @@ Plugin 'vim-scripts/mru.vim'
 Plugin 'vim-scripts/peaksea'
 
 " my_plugins
-Plugin 'w0rp/ale'
-Plugin 'ElmCast/elm-vim'
-Plugin 'Yggdroot/indentLine'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'pangloss/vim-javascript'
-Plugin 'posva/vim-vue'
-Plugin 'mxw/vim-jsx'
+    " common
+    Plugin 'w0rp/ale'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'easymotion/vim-easymotion'
+    Plugin 'Yggdroot/indentLine'
+
+    " js ecosystem
+    Plugin 'ElmCast/elm-vim'
+    Plugin 'pangloss/vim-javascript'
+    Plugin 'posva/vim-vue'
+    Plugin 'mxw/vim-jsx'
+
+    " markdown
+    Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()
 
