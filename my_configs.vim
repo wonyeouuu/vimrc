@@ -9,6 +9,7 @@ colorscheme solarized
 
 " set indent preferences based on file type
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype vue setlocal ts=2 sts=2 sw=2
 autocmd Filetype vue syntax sync fromstart
 
