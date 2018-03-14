@@ -22,7 +22,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'groenewege/vim-less'
-Plugin 'tpope/vim-markdown'
+" Plugin 'tpope/vim-markdown' " personal preference
 Plugin 'therubymug/vim-pyte'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
@@ -54,6 +54,7 @@ Plugin 'vim-scripts/peaksea'
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'easymotion/vim-easymotion'
     Plugin 'Yggdroot/indentLine'
+    Plugin 'prettier/vim-prettier'
 
     " js ecosystem
     Plugin 'ElmCast/elm-vim'
@@ -63,6 +64,8 @@ Plugin 'vim-scripts/peaksea'
 
     " markdown
     Plugin 'suan/vim-instant-markdown'
+    Plugin 'godlygeek/tabular'
+    Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 
